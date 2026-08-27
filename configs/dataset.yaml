@@ -1,8 +1,8 @@
-path: ../data/processed
-train: images/train
-val: images/val
-test: images/test
+path: /content/Image_processing/data/external/cow_dataset/CowAnalysis_Dataset
+train: train/images
+val: valid/images
+test: test/images
 
 names:
-  0: Standing
-  1: Lying
+  0: Lying
+  1: Standing
