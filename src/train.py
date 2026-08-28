@@ -19,7 +19,7 @@ def main():
         imgsz=IMG_SIZE,
         batch=BATCH_SIZE,
         patience=PATIENCE,
-        project="runs/detect",
+        project="/content/drive/MyDrive/Image_processing_backup/runs/detect",
         name="baseline",
     )
 
