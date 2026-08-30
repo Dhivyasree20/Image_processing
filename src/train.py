@@ -2,7 +2,7 @@
 
 from ultralytics import YOLO
 
-MODEL = "yolo26n.pt"
+MODEL = "yolo26s.pt"
 DATA_CONFIG = "configs/dataset.yaml"
 EPOCHS = 50
 IMG_SIZE = 640
@@ -20,7 +20,7 @@ def main():
         batch=BATCH_SIZE,
         patience=PATIENCE,
         project="/content/drive/MyDrive/Image_processing_backup/runs/detect",
-        name="baseline",
+        name="improved_s",
     )
 
     print("Training complete.")
@@ -29,3 +29,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
