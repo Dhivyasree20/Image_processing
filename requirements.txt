@@ -1,4 +1,6 @@
 ultralytics
+streamlit
+pillow
 opencv-python
 numpy
 pandas
