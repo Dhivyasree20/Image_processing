@@ -29,7 +29,7 @@ if uploaded_file is not None:
     st.image(image, caption="Uploaded image", use_container_width=True)
 
     with st.spinner("Analyzing..."):
-        results = model.predict(np.array(image), conf=0.25)
+        results = model.predict(np.array(image), conf=0.05)
         result = results[0]
 
     if len(result.boxes) == 0:
